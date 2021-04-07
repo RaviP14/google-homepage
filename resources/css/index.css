@@ -2,10 +2,12 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 0.8em;
 }
 
-li {
+#header-list {
     display: inline;
+    font-size: 0.8em;
 }
 
 li a {
@@ -15,14 +17,37 @@ li a {
     text-decoration: none;
 }
 
-a[href="gmail.asp"]{
-    float: right;
+.left-side-head {
+    float: inline-start;
 }
 
-a[href="images.asp"]{
-    float: right;
+.right-side-head {
+    float: inline-end;
 }
 
-a[href="googleapps.asp"]{
-    float: right;
+#google-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-bar {
+    text-align: center;
+    align: center;
+    margin-right: 5em;
+}
+
+#footer-list {
+    display: inline;
+    font-size: 0.8em;
+}
+
+.left-side-footer {
+    float: inline-start;
+    padding: 1em;
+}
+
+.right-side-footer {
+    float: inline-end;
+    padding: 1em; 
 }

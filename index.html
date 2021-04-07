@@ -3,19 +3,19 @@
 <html>
     <head>
         <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
-        <ul>
-           <li><a href="about.asp">About</a></li>
-           <li><a href="store.asp">Store</a></li> 
-           <li><a href="gmail.asp">Gmail</a></li>
-           <li><a href="images.asp">Images</a></li>
-           <li><a href="googleapps.asp">Google Apps</a></li> <!--change to icon either button or img-->
-           <li><button type="sumbit" id="sign-in">Sign In</button></li>
+        <ul id="header-list">
+           <li><a class="left-side-head" href="about.asp">About</a></li>
+           <li><a class="left-side-head" href="store.asp">Store</a></li> 
+           <li><a class="right-side-head" href="gmail.asp">Gmail</a></li>
+           <li><a class="right-side-head" href="images.asp">Images</a></li>
+           <li><a class="right-side-head" href="google-apps.asp">Google Apps</a></li> <!--change to icon either button or img-->
+           <li><button type="sumbit" class="right-side-head">Sign In</button></li>
         </ul> 
     </head>
 
     <body>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-        <form>
+        <img id="google-pic" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <form id="search-bar">
             <input type="text" name="text" class="search">
             <button type="submit">Google search</button> 
             <button type="submit">I'm Feeling Lucky</button>
@@ -23,6 +23,19 @@
     </body>
 
     <footer>
-        
+        <ul>
+            <li><p>United Kingdom</p></li>
+        </ul>
+        <ul>
+            <li><a id="carbn" href="carbon-neutral.asp">Carbon netraul since 2007</a></li>
+        </ul>
+        <ul id="footer-list">
+            <li><a class="left-side-footer" href="advertising.asp">Advertising</a></li>
+            <li><a class="left-side-footer" href="business.asp">Business</a></li>
+            <li><a class="left-side-footer" href="how-search-works.asp">How Seach works</a></li>
+            <li><a class="right-side-footer" href="privacy.asp">Privacy</a></li>
+            <li><a class="right-side-footer" href="terms.asp">Terms</a></li>
+            <li><a class="right-side-footer" href="settings.asp">Settings</a></li>
+        </ul>
     </footer>
 </html>
