@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    padding: 0.1em;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+
+a[href="gmail.asp"]{
+    float: right;
+}
+
+a[href="images.asp"]{
+    float: right;
+}
+
+a[href="googleapps.asp"]{
+    float: right;
+}
