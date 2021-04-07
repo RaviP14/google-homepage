@@ -5,8 +5,8 @@ ul {
     font-size: 0.8em;
 }
 
-#header-list {
-    display: inline;
+.header-list {
+    display: inline-block;
     font-size: 0.8em;
 }
 
@@ -17,12 +17,8 @@ li a {
     text-decoration: none;
 }
 
-.left-side-head {
-    float: inline-start;
-}
-
 .right-side-head {
-    float: inline-end;
+    float: right;
 }
 
 #google-pic {
@@ -37,17 +33,15 @@ li a {
     margin-right: 5em;
 }
 
-#footer-list {
-    display: inline;
+.footer-list {
+    display: flex;
     font-size: 0.8em;
 }
 
-.left-side-footer {
-    float: inline-start;
-    padding: 1em;
+#carbn {
+    
 }
 
 .right-side-footer {
-    float: inline-end;
-    padding: 1em; 
+    margin-left: auto;
 }

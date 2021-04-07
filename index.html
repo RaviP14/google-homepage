@@ -1,41 +1,63 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
+    <head class="header-list">
         <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
-        <ul id="header-list">
-           <li><a class="left-side-head" href="about.asp">About</a></li>
-           <li><a class="left-side-head" href="store.asp">Store</a></li> 
-           <li><a class="right-side-head" href="gmail.asp">Gmail</a></li>
-           <li><a class="right-side-head" href="images.asp">Images</a></li>
-           <li><a class="right-side-head" href="google-apps.asp">Google Apps</a></li> <!--change to icon either button or img-->
-           <li><button type="sumbit" class="right-side-head">Sign In</button></li>
-        </ul> 
+        <div class="left-side-head">
+            <ul>
+                <li><a href="about.asp">About</a></li>
+                <li><a href="store.asp">Store</a></li> 
+             </ul>
+        </div>
+        <div>
+            <ul class="right-side-head">
+                <li><a href="gmail.asp">Gmail</a></li>
+                <li><a href="images.asp">Images</a></li>
+                <li><a href="google-apps.asp">Google Apps</a></li> <!--change to icon either button or img-->
+                <li><button type="sumbit">Sign In</button></li>
+            </ul>
+        </div>
     </head>
 
     <body>
-        <img id="google-pic" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-        <form id="search-bar">
-            <input type="text" name="text" class="search">
-            <button type="submit">Google search</button> 
-            <button type="submit">I'm Feeling Lucky</button>
-        </form>
+        <div id="google-pic">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        </div>
+        <div id="search-bar">
+            <form>
+                <input type="text" name="text" class="search">
+                <button type="submit">Google search</button> 
+                <button type="submit">I'm Feeling Lucky</button>
+            </form>
+        </div>
     </body>
 
-    <footer>
-        <ul>
-            <li><p>United Kingdom</p></li>
-        </ul>
-        <ul>
-            <li><a id="carbn" href="carbon-neutral.asp">Carbon netraul since 2007</a></li>
-        </ul>
-        <ul id="footer-list">
-            <li><a class="left-side-footer" href="advertising.asp">Advertising</a></li>
-            <li><a class="left-side-footer" href="business.asp">Business</a></li>
-            <li><a class="left-side-footer" href="how-search-works.asp">How Seach works</a></li>
-            <li><a class="right-side-footer" href="privacy.asp">Privacy</a></li>
-            <li><a class="right-side-footer" href="terms.asp">Terms</a></li>
-            <li><a class="right-side-footer" href="settings.asp">Settings</a></li>
-        </ul>
+    <footer class="footer-list">
+
+        <div>
+            <ul>
+                <li><p>United Kingdom</p></li>
+            </ul>
+        </div>
+        <div id="carbn">
+            <ul>
+                <li><a href="carbon-neutral.asp">Carbon netraul since 2007</a></li>
+            </ul>
+        </div>
+        <div class="left-side-footer">
+            <ul> 
+                <li><a href="advertising.asp">Advertising</a></li>
+                <li><a href="business.asp">Business</a></li>
+                <li><a href="how-search-works.asp">How Seach works</a></li>
+            </ul>
+        </div>
+        <div class="right-side-footer">
+            <ul>
+                <li><a href="privacy.asp">Privacy</a></li>
+                <li><a href="terms.asp">Terms</a></li>
+                <li><a href="settings.asp">Settings</a></li>
+            </ul>
+        </div>
+
     </footer>
 </html>
