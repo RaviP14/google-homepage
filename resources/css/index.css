@@ -5,8 +5,11 @@ ul {
     font-size: 0.8em;
 }
 
-.header-list {
-    display: inline-block;
+/* Header */
+nav.header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 0.8em;
 }
 
@@ -14,34 +17,47 @@ li a {
     padding: 0.1em;
     color: #000000;
     text-align: center;
-    text-decoration: none;
+    list-style: none;
+}
+
+.left-side-head {
+    display: inline-block;
 }
 
 .right-side-head {
-    float: right;
+    display: flex;
+    align-items: center;
 }
-
+/* Center*/
 #google-pic {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 300px;
+    margin-left: 325px;
+    margin-right: auto; 
+    align-items: center;
 }
 
 #search-bar {
     text-align: center;
-    align: center;
+    align-items: center;
+    margin-top: 2em;
     margin-right: 5em;
 }
 
-.footer-list {
+/* Footer */
+nav.footer-list {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 0.8em;
 }
 
 #carbn {
-    
+    text-align: center;
+    list-style: inside;
 }
 
 .right-side-footer {
-    margin-left: auto;
+    display: flex;
+    align-items: flex-end;
 }
