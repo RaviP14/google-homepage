@@ -31,6 +31,10 @@ li a {
     align-items: center;
 }
 /* Center*/
+.main-center {
+    text-align: center;
+}
+
 #google-pic {
     display: flex;
     align-items: center;
@@ -43,11 +47,19 @@ li a {
     margin-top: 2em;
 }
 
+#text-bar {
+}
+
 .form-button {
     margin-top: 1em;
+    text-align: center; 
 }
 
 /* Footer */
+.footer-nav {
+    margin-top: 200px;
+}
+
 nav.footer-l {
     display: flex;
     justify-content: space-between;
