@@ -32,14 +32,12 @@ li a {
 }
 /* Center*/
 .main-center {
-    text-align: center;
-}
-
-#google-pic {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
+    flex-direction: column;
+    min-height: 500px;
+    min-width: 200px;
 }
 
 #search-bar {
@@ -47,8 +45,7 @@ li a {
     margin-top: 2em;
 }
 
-#text-bar {
-}
+#text-bar {}
 
 .form-button {
     margin-top: 1em;
@@ -78,5 +75,5 @@ nav.footer-l {
 
 .right-side-footer {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
