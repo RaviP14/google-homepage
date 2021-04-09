@@ -19,7 +19,13 @@ li a {
     color: #000000;
     text-align: center;
     list-style: none;
-    font-size: 1em;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+li a:hover {
+    text-decoration: underline;
 }
 
 .left-side-head {
@@ -29,6 +35,18 @@ li a {
 .right-side-head {
     display: flex;
     align-items: center;
+}
+
+.right-side-head button{
+    border: 1px solid #4285f4;
+    border-radius: 2px 2px 2px 2px;
+    background-color: #4285f4;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    outline: none;
+    width: 6em;
+    height: 2.6em;
+    box-shadow: 1px 0 rgba(0,0,0,.15);
 }
 /* Center*/
 .main-center {
@@ -45,11 +63,26 @@ li a {
     margin-top: 2em;
 }
 
-#text-bar {}
+input[type="text"] {
+    width: 36em;
+    border-radius: 20px 20px 20px 20px;
+    height: 3em;
+    overflow: hidden;
+    border: 1px solid lightgrey;
+    outline: none !important;
+}
 
 .form-button {
-    margin-top: 1em;
+    margin-top: 1.5em;
     text-align: center; 
+}
+.form-button button {
+    border-radius: 4px 4px 4px 4px;
+    width: 10em;
+    height: 2.5em;
+    border: 2px solid #f2f2f2;
+    background-color: #f2f2f2;
+    color: #222;
 }
 
 /* Footer */
@@ -60,7 +93,6 @@ li a {
 nav.footer-l {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     font-size: 1em;
 }
 
@@ -75,5 +107,4 @@ nav.footer-l {
 
 .right-side-footer {
     display: flex;
-    align-items: center;
 }
