@@ -13,10 +13,6 @@ html, body {
     min-height: 100%;
 }
 
-.boddy {
-    flex-grow: 1;
-}
-
 /* Header */
 
 nav.header-list {
@@ -110,9 +106,11 @@ input[type="text"] {
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
 /* Footer */
-.header, 
 .foot-all {
-    flex-grow: 1;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .footer-nav {
     margin-top: 260px;
@@ -136,6 +134,7 @@ nav.footer-l {
     height: 2em;
     padding-top: 1px;
     padding-bottom: 5px;
+    padding-left: 1em;
 }
 #carbn {
     text-align: center;
