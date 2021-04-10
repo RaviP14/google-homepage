@@ -13,6 +13,10 @@ html, body {
     min-height: 100%;
 }
 
+ion-icon {
+    font-size: 23.5px;
+    color: #5f6368;
+  }
 /* Header */
 
 nav.header-list {
@@ -21,6 +25,7 @@ nav.header-list {
     align-items: center;
     padding-left: 0.5em;
     padding-right: 1em;
+    padding-top: 1em;
 }
 
 li a {
@@ -35,6 +40,13 @@ li a {
 
 li a:hover {
     text-decoration: underline;
+}
+
+.icon:hover {
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+    opacity: 1;
+    outline: none;
 }
 
 .left-side-head {
