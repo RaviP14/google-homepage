@@ -97,6 +97,7 @@ input[type="text"] {
     border: 1px solid lightgrey;
     outline: none !important;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAw0lEQVQ4ja3Qv0qCYRiG8Z+6BElWQ7gELW2BRnYACQ2BCB2CLjU1BIL4BychcUkQcRKPqCNqcFCk4f2+9wu9x+d67+t5eEnODYopPDFvWOMTC4xQyVI8wQp3yP2Zl9DDY0www3kK76KWBJt4jiwoYJwEO7anxzJBOQSGOMsgaKEaAh94yCD4xkUI1PEaKV+in/agh6cUvsB1ZIkOGri1/fUr3GOJH7zHBPCCAb4wRRunu/JvVgnkA7N/S0I5mmR+iGCfDWHhGLbAUSByAAAAAElFTkSuQmCC) no-repeat scroll 1em 0.9em;
+    padding-left: 3em;
 }
 
 
